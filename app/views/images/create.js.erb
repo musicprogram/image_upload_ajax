@@ -1,0 +1,5 @@
+<% if remotipart_submitted? %>	
+	$('#image').append('<%= j render "/images/image" %>');
+<% else %>
+	alert('NO works')
+<% end %>
